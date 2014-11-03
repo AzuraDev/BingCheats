@@ -17,7 +17,7 @@ bingArray3[1] = 'dog ';
 bingArray3[2] = 'fish ';
 bingArray3[3] = 'pig ';
 bingArray3[4] = 'owl ';
-for(i - 0; i < 15; i++){
+for(i = 0; i < 15; i++){
     var bingSelector1 = Math.floor(Math.random() * bingArray1.length);
     var bingScriptMain = bingArray1[bingSelector1];
     var bingSelector2 = Math.floor(Math.random() * bingArray2.length);

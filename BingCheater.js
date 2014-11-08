@@ -8,8 +8,8 @@ var bingSelector1;
 var bingSelector2;
 var bingSelector3;
 /*Variable stored ^*/
-var p = 'youtube';
-var p1 = 'bing';
+var p = 'y';
+var p1 = 'b';
 var p2 = prompt('enter <bing> or <youtube> here');
 
 if (p2 === p1) {
@@ -21,14 +21,14 @@ in a random variety the digits include 1, 2, 3, 4, 5, 6,
 7, 8, 9, and 0
 */
 } else if (p2 === p) {
-    alert('You Entered Youtube Script');
+    alert('You Entered y Script');
     youtube = 1;
     bing = 0;
        /* A random youtube video should pop up Made with arrays to 
        generate a youtube url with 11 digits that consists of
        A variety of both numbers and letters*/
 } else if (p2 !== p || p2 !== p1) {
-    alert('Enter <bing> or <youtube>');
+    alert('Enter <b> or <y>');
 
 }
 var bingArray1 = new Array();
